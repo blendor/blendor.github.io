@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.fe9a08dc.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.a3a8715e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.9ba44ed0.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.96301010.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.5ae4157e.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.353c08fe.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.8b9da1d0.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <nav data-svelte-h="svelte-2b8a75"><a href="/blendor.github.io/">Home</a> <a href="/blendor.github.io/now">Now</a></nav> <h1 data-svelte-h="svelte-yyjjjs">Welcome to SvelteKit</h1> <p data-svelte-h="svelte-jl9sbz">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>  
+			
+			<script>
+				{
+					__sveltekit_1259fci = {
+						assets: "/blendor.github.io",
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.fe9a08dc.js"),
+						import("./_app/immutable/entry/app.96301010.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
